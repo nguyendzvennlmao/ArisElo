@@ -1,0 +1,45 @@
+settings:
+  kill:
+    min: 1
+    max: 10
+  death:
+    min: 5
+    max: 15
+
+ranks:
+  - threshold: 0
+    name: "&7[Chưa Rank]"
+  - threshold: 500
+    name: "&8[LT5]"
+  - threshold: 600
+    name: "&e[HT5]"
+  - threshold: 700
+    name: "&8[LT4]"
+  - threshold: 800
+    name: "&e[HT4]"
+  - threshold: 900
+    name: "&8[LT3]"
+  - threshold: 1000
+    name: "&e[HT3]"
+  - threshold: 1100
+    name: "&8[LT2]"
+  - threshold: 1200
+    name: "&e[HT2]"
+  - threshold: 1300
+    name: "&8[LT1]"
+  - threshold: 1400
+    name: "&e[HT1]"
+
+titles:
+  kill:
+    title: "#facc15+ %elo% Elo"
+    subtitle: "🗡️"
+  death:
+    title: "#ff0812- %elo% Elo"
+    subtitle: "☠️"
+
+messages:
+  give-elo: "&aBạn đã nhận được #facc15%elo% &aElo!"
+  reset-elo: "&eElo của bạn đã được reset về 0."
+  set-rank-success: "&aĐã đặt rank của %player% thành %rank%."
+  no-permission: "&cBạn không có quyền!"

@@ -1,0 +1,11 @@
+name: ArisElo
+version: 1.0
+main: me.aris.ariselo.ArisElo
+api-version: 1.20
+author: VennLMAO
+depend: [PlaceholderAPI]
+folia-supported: true
+commands:
+  elo:
+    description: quản lý ariselo
+    permission: ariselo.admin
